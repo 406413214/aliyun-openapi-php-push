@@ -19,7 +19,9 @@
  */
 namespace Heroin\Aliyun\Push;
 
-class PushRequest extends \RpcAcsRequest
+use Heroin\Aliyun\Core\RpcAcsRequest;
+
+class PushRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

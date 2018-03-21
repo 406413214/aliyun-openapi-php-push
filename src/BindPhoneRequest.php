@@ -19,7 +19,9 @@
  */
 namespace Heroin\Aliyun\Push;
 
-class BindPhoneRequest extends \RpcAcsRequest
+use Heroin\Aliyun\Core\RpcAcsRequest;
+
+class BindPhoneRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

@@ -19,7 +19,9 @@
  */
 namespace Heroin\Aliyun\Push;
 
-class QueryPushDetailRequest extends \RpcAcsRequest
+use Heroin\Aliyun\Core\RpcAcsRequest;
+
+class QueryPushDetailRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

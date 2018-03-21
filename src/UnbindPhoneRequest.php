@@ -19,7 +19,9 @@
  */
 namespace Heroin\Aliyun\Push;
 
-class UnbindPhoneRequest extends \RpcAcsRequest
+use Heroin\Aliyun\Core\RpcAcsRequest;
+
+class UnbindPhoneRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

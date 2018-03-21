@@ -19,7 +19,9 @@
  */
 namespace Heroin\Aliyun\Push;
 
-class CheckDevicesRequest extends \RpcAcsRequest
+use Heroin\Aliyun\Core\RpcAcsRequest;
+
+class CheckDevicesRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

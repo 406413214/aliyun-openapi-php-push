@@ -19,7 +19,9 @@
  */
 namespace Heroin\Aliyun\Push;
 
-class CancelPushRequest extends \RpcAcsRequest
+use Heroin\Aliyun\Core\RpcAcsRequest;
+
+class CancelPushRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

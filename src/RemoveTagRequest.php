@@ -19,7 +19,9 @@
  */
 namespace Heroin\Aliyun\Push;
 
-class RemoveTagRequest extends \RpcAcsRequest
+use Heroin\Aliyun\Core\RpcAcsRequest;
+
+class RemoveTagRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

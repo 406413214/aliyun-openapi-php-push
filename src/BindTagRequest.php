@@ -19,7 +19,9 @@
  */
 namespace Heroin\Aliyun\Push;
 
-class BindTagRequest extends \RpcAcsRequest
+use Heroin\Aliyun\Core\RpcAcsRequest;
+
+class BindTagRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

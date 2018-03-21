@@ -19,7 +19,9 @@
  */
 namespace Heroin\Aliyun\Push;
 
-class ListTagsRequest extends \RpcAcsRequest
+use Heroin\Aliyun\Core\RpcAcsRequest;
+
+class ListTagsRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

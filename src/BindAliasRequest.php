@@ -19,7 +19,9 @@
  */
 namespace Heroin\Aliyun\Push;
 
-class BindAliasRequest extends \RpcAcsRequest
+use Heroin\Aliyun\Core\RpcAcsRequest;
+
+class BindAliasRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

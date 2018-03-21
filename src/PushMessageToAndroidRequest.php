@@ -19,7 +19,9 @@
  */
 namespace Heroin\Aliyun\Push;
 
-class PushMessageToAndroidRequest extends \RpcAcsRequest
+use Heroin\Aliyun\Core\RpcAcsRequest;
+
+class PushMessageToAndroidRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

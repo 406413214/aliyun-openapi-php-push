@@ -17,7 +17,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-namespace Push\Request\V20160801;
+namespace Heroin\Aliyun\Push;
 
 class PushMessageToAndroidRequest extends \RpcAcsRequest
 {

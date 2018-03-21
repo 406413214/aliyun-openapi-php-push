@@ -21,7 +21,7 @@
     "phpunit/phpunit": "4.*"
   },
   "autoload": {
-    "psr-4": {"Heroin\\Aliyun\\Wsgsvr\\": "src"}
+    "psr-4": {"Heroin\\Aliyun\\Push\\": "src"}
   },
   "extra": {
     "branch-alias": {

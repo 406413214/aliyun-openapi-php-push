@@ -1,0 +1,30 @@
+{
+  "name": "heroin/aliyun-openapi-php-push",
+  "description": "integration composer",
+  "keywords": [
+    "aliyun-openapi-php-push"
+  ],
+  "homepage": "https://github.com/406413214/aliyun-openapi-php-push",
+  "license": "MIT",
+
+  "authors": [
+    {
+      "name": "xiawenqiang",
+      "email": "406413214@qq.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.*"
+  },
+  "autoload": {
+    "psr-4": {"Heroin\\Aliyun\\Wsgsvr\\": "src"}
+  },
+  "extra": {
+    "branch-alias": {
+    }
+  }
+}
